@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif!important;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999!important;
+  border-radius: 3px!important;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 40px;
+  width: 40px!important;
+  margin-right: 2px!important;
+  margin-top: 2px!important;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center!important;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.winner{
+  background-color: #d3d3d3!important;
+}
+
+.last{
+  background-color: #83f28f!important;
+}
