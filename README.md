@@ -10,5 +10,5 @@ npm start
 ```
 
 ## Deploy
-[![Gomoku Game]](https://gomoku-rho.vercel.app/)
+[Gomoku Game](https://gomoku-rho.vercel.app/)
 
